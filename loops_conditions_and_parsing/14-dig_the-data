@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# parse log for IP and HTTP and then calculate and put num occurences up front; order from greatest to lowest
+
+file="apache-access.log"
+awk '{print $1, $9}' $file | sort | uniq -c | sort -nr
