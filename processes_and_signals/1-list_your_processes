@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# display all processes, user-oriented, w/wo TTY, show heirachy
+#Script bash that displays a list of currently running processes
 
 ps -auxf
