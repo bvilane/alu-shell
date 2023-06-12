@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display all processes, user-oriented, w/wo TTY, show heirachy
+
+ps -auxf
